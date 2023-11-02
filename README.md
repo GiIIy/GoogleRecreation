@@ -1,4 +1,4 @@
-#Google Search Page Clone
+Google Search Page Clone
 This project is a simple recreation of the Google search page. It emulates the look and feel of the Google homepage, providing a familiar and user-friendly experience.
 
 Features
