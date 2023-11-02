@@ -1,0 +1,159 @@
+/* Apply these styles to all elements in the document */
+* {
+  background-color: #333333; /* Background color for all elements */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font style for all elements */
+}
+
+/* Styles for input elements */
+input {
+  width: 538px; /* Set the width of the input field */
+  background-color: white; /* Background color for the input field */
+  border: none; /* Remove the border */
+  border-radius: 25px; /* Apply rounded corners */
+  padding: 11px; /* Add padding */
+  padding-top: 11px; /* Additional top padding */
+  display: block; /* Display as block element */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+  color: #575d64; /* Text color */
+  font-size: 16px; /* Font size */
+  text-indent: 40px; /* Indent text */
+}
+
+/* Styles for input when it's in focus (selected) */
+input:focus {
+  outline: none; /* Remove the focus outline */
+}
+
+/* Styles for input's placeholder text when it's in focus */
+input:focus::-webkit-input-placeholder {
+  color: transparent; /* Make the placeholder text transparent */
+}
+
+/* Styles for links when hovering over them */
+a:hover {
+  text-decoration: underline; /* Underline the text on hover */
+}
+
+/* Styles for an image with class "img1" */
+.img1 {
+  background-color: #152A4C; /* Background color */
+  width: 400px; /* Width of the image */
+  height: 160px; /* Height of the image */
+  padding: 16px 24px; /* Padding */
+  display: block; /* Display as a block element */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+  border-radius: 20px; /* Apply rounded corners */
+}
+
+/* Styles for the input with class "icon" */
+.icon {
+  background: url(Images/icon_search.svg) no-repeat left; /* Background image and positioning */
+  background-size: 20px; /* Size of the background image */
+  background-position: 18px; /* Position of the background image */
+  background-color: white; /* Background color */
+}
+
+/* Styles for a button with class "button1" */
+.button1 {
+  display: block; /* Display as a block element */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+  color: white; /* Text color */
+  font-size: 25px; /* Font size */
+  border: none; /* Remove the border */
+  background-color: #292929; /* Background color */
+  border-radius: 70%; /* Apply rounded corners */
+  height: 48px; /* Height of the button */
+  width: 48px; /* Width of the button */
+  font-family: 'Times New Roman', Times, serif; /* Font family */
+  font-weight: bold; /* Font weight */
+}
+
+/* Styles for the button when hovering over it */
+.button1:hover {
+  background-color: #393a3b; /* Change background color on hover */
+}
+
+/* Styles for an element with class "shortcutText" */
+.shortcutText {
+  color: white; /* Text color */
+  text-align: center; /* Center-align text */
+  font-size: 13px; /* Font size */
+}
+
+/* Styles for an image with class "profilePic" */
+.profilePic {
+  display: inline; /* Display as an inline element */
+  margin-left: 90%; /* Adjust margin for positioning */
+  border-radius: 70%; /* Apply rounded corners */
+  position: absolute; /* Position element absolutely */
+  top: 16px; /* Position from the top */
+  right: 18px; /* Position from the right */
+}
+
+/* Styles for the profile image when hovering over it */
+.profilePic:hover {
+  background: transparent; /* Make the background transparent */
+  border: 4px solid #4e4d4d; /* Add a border */
+  /* Add a shadow effect */
+  box-shadow: inset 0 0 5px 0 #4e4d4d;
+  -moz-box-shadow: inset 0 0 5px 0 #4e4d4d;
+  -webkit-box-shadow: inset 0 1px 2px 0 #4e4d4d, 0 1px 1px 0 #4e4d4d;
+  top: 13px; /* Adjust position from the top */
+  right: 14px; /* Adjust position from the right */
+}
+
+/* Styles for an image with class "grid" */
+.grid {
+  display: inline; /* Display as an inline element */
+  margin-left: 90%; /* Adjust margin for positioning */
+  position: absolute; /* Position element absolutely */
+  top: 21px; /* Position from the top */
+  right: 70px; /* Position from the right */
+  width: 24px; /* Width of the image */
+  height: 22px; /* Height of the image */
+}
+
+/* Styles for the grid image when hovering over it */
+.grid:hover {
+  background: transparent; /* Make the background transparent */
+  border: 8px solid #4e4d4d; /* Add a border */
+  border-radius: 70%; /* Apply rounded corners */
+  /* Add a shadow effect */
+  box-shadow: inset 0 0 5px 0 #4e4d4d;
+  -moz-box-shadow: inset 0 0 5px 0 #4e4d4d;
+  -webkit-box-shadow: inset 0 1px 2px 0 #4e4d4d, 0 1px 1px 0 #4e4d4d;
+  top: 13px; /* Adjust position from the top */
+  right: 62px; /* Adjust position from the right */
+  background-color: #4e4d4d; /* Background color on hover */
+}
+
+/* Styles for a link with class "images" */
+.images {
+  display: inline; /* Display as an inline element */
+  margin-left: 90%; /* Adjust margin for positioning */
+  position: absolute; /* Position element absolutely */
+  top: 25px; /* Position from the top */
+  right: 115px; /* Position from the right */
+  color: white; /* Text color */
+  font-family: arial, sans-serif; /* Font family */
+  text-decoration: none; /* Remove text decoration */
+  font-size: 13px; /* Font size */
+  font-weight: 550; /* Font weight */
+}
+
+/* Styles for a link with class "gmail" */
+.gmail {
+  display: inline; /* Display as an inline element */
+  margin-left: 90%; /* Adjust margin for positioning */
+  position: absolute; /* Position element absolutely */
+  top: 25px; /* Position from the top */
+  right: 176px; /* Position from the right */
+  color: white; /* Text color */
+  font-family: arial, sans-serif; /* Font family */
+  text-decoration: none; /* Remove text decoration */
+  font-size: 13px; /* Font size */
+  font-weight: 550; /* Font weight */
+}
