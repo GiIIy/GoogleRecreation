@@ -1,6 +1,8 @@
 # Google Search Page Clone
 
 This project is a simple recreation of the Google search page. It emulates the look and feel of the Google homepage, providing a familiar and user-friendly experience.
+![image](https://github.com/GiIIy/GoogleRecreation/assets/74792652/19aa042a-5725-4607-97bd-15d27ffacb93)
+
 
 ## Features
 Search Bar: A search bar with placeholder text for entering search queries.
